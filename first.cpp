@@ -2,9 +2,13 @@
 using namespace std;
 
 int main() {
-    int a ,b;
-    cin >> a >> b;
-    int sum = a + b;
-    cout << sum ;
-    return 0;
+   
+
+    int num = 1;
+    for ( int i = 1 ; i<=10 ; i++){        
+        cout << " "<< num;
+        num = num*2+1;
+
+    }
+    
 }
